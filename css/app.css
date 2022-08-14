@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+.mypanel {
+  background: rgba(255, 255, 255, 0.93);
+}
+
+.mydarkpanel {
+  background: rgba(9, 9, 9, 0.93);
+  border-color: #000000;
+
+}
+
+.fixedbottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+}
+
+.mypanel h5,
+.mypanel h4 {
+  color: rgb(112, 46, 47);
+}
+
+.slider-panel {
+  padding: .25em;
+}
+
+#test {
+  opacity: 0;
+}
+
+.fa-opacity {
+  opacity: .2;
+}
+
+@media only screen and (max-width: 40em) {
+  .font-75 {
+    font-size: 87.5%;
+  }
+
+  .small-pad {
+    padding: .25em;
+  }
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 626px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 0;
+}
+
+< !--Foundation Style Overrides-- >
+/* Default header styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #702E2F;
+  font-weight: 600;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  color: #6F4444;
+}
+
+button,
+.button {
+  background-color: #306E2D;
+  border-color: #306E2D;
+}
+
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
+  background-color: #245422;
+}
+
+.accordion .accordion-navigation.active > a,
+.accordion dd.active > a {
+  background: #D1C8C8;
+}
+
+.accordion .accordion-navigation > a,
+.accordion dd > a {
+  background: #E1DCDC;
+}
+
+.accordion .accordion-navigation > a:hover,
+.accordion dd > a:hover {
+  background: #C0B4B4;
+}
+
+a {
+  color: #306E2D;
+}
+
+a:hover,
+a:focus {
+  color: #245422;
+}
+
+ol.albumlist li {
+  font-size: 80%;
+}

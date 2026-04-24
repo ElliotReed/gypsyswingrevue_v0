@@ -178,7 +178,8 @@
             <option value="48">West Virginia
             <option value="49">Wisconsin
             <option value="50">Wyoming
-          </select><input type="hidden" name="list[2]" value="signup" /><input type="hidden" name="listname[2]" value="Gypsy Swing Revue Mail List" />
+          </select>
+          <input type="hidden" name="list[2]" value="signup" /><input type="hidden" name="listname[2]" value="Gypsy Swing Revue Mail List" />
           <div style="display:none"><input type="text" name="VerificationCodeX" value="" size="20"></div>
           <p>
 

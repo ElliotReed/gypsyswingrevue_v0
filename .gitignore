@@ -2,4 +2,8 @@ connect.php
 
 .ftpquota
 
-/lists
+lists
+
+server-files_production
+
+_no-commit

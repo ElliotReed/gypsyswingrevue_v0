@@ -99,7 +99,7 @@ include("views/navigation.php");
     }, function(data) {
       $("#schedule").html(data).show();
     });
-  })
+  });
 </script>
 <!--END SCHEDULE-->
 

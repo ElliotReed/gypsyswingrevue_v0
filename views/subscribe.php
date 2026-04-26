@@ -10,7 +10,7 @@
   <link rel="license" href="http://www.gnu.org/copyleft/gpl.html" title="GNU General Public License" />
   <meta name="Author" content="Michiel Dethmers - http://www.phplist.com" />
   <meta name="Copyright" content="Michiel Dethmers, phpList Ltd - http://phplist.com" />
-  <meta name="Powered-By" content="phpList version 3.0.12" />
+  <meta name="Powered-By" content="phpList version 3.6.15" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="SHORTCUT ICON" href="../images/phplist.ico" />
   <title>Subscribe to our Newsletters</title>
@@ -20,7 +20,7 @@
   <link rel="apple-touch-icon-precomposed" href="../images/phplist-touch-icon.png" />
 
   <?php
-  include("header.php");
+      include "header.php";
   ?>
 
   <title>Gypsy Swing Revue | Subscribe to Colorado's Premier Gypsy Jazz Band!</title>
@@ -28,11 +28,11 @@
 
 <body>
   <?php
-  include("background.php");
+      include "background.php";
   ?>
 
   <?php
-  include("navigation.php");
+      include "navigation.php";
   ?>
 
   <div class="row">
@@ -109,7 +109,7 @@
           }
         </script>
 
-        <form method="post" action="http://www.gypsyswingrevue.com/lists/?p=subscribe" name="signup" target="windowName" onsubmit="window.open('', this.target,
+        <form method="post" action="https://list.gypsyswingrevue.com/?p=subscribe" name="signup" target="windowName" onsubmit="window.open('', this.target,
 'dialog,modal,scrollbars=no,resizable=no,width=550,height=300,left=0,top=0');">
 
           <div class="attributename">First Name</div>
@@ -190,7 +190,7 @@
         <br />
         <br />
         <p>
-          <a href="https://www.gypsyswingrevue.com/lists/?p=unsubscribe&id=1">Unsubscribe</a>
+          <a href="https://list.gypsyswingrevue.com/?p=unsubscribe&id=1">Unsubscribe</a>
         </p>
         <p class="poweredby">
           <a href="https://www.phplist.com/poweredby?utm_source=pl3.6.6&amp;utm_medium=poweredhostedimg&amp;utm_campaign=phpList" title="visit the phpList website">
@@ -204,7 +204,7 @@
     </div>
 
     <?php
-    include("footer.php");
+        include "footer.php";
     ?>
 
 </body>

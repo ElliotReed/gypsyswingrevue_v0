@@ -1,8 +1,8 @@
 name: Deploy Static Site to VPS
 
 on:
-  # push:
-    # branches: [ main ]
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 env:
@@ -12,7 +12,7 @@ env:
   VPS_USER: ${{ secrets.VPS_USER }}
 
 # Project config
-  SITE_NAME: gypsyswingrevue.com
+  SITE_NAME: gypsyswingrevue
   NODE_VERSION: "24"
 
 jobs:
@@ -40,7 +40,9 @@ jobs:
           rsync -avz --delete \
             --exclude '.git' \
             --exclude '.github' \
-           <files and folders to copy> \
+            --exclude 'README.md' \
+            --exclude './php/connect-php' \
+           ./* \
             ${{ env.VPS_USER }}@${{ env.VPS_HOST }}:${{ env.REMOTE_SITE_PATH }}/
 
       - name: Deployment summary

@@ -43,7 +43,7 @@ jobs:
             --exclude '.git' \
             --exclude '.github' \
             --exclude 'README.md' \
-            --exclude './php/connect-php' \
+            --exclude 'php/connect-php' \
            ./* \
             ${{ env.VPS_USER }}@${{ env.VPS_HOST }}:${{ env.REMOTE_SITE_PATH }}/
 

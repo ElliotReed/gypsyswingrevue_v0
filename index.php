@@ -1,6 +1,6 @@
 <?php
 $_POST['$title'] = "Gypsy Swing Revue | Colorado's Premier Gypsy Jazz Swing Band! | Weddings and Events in the Denver and Boulder Area";
-include("views/header.php");
+include("views/head.php");
 include("views/background.php");
 include("views/navigation.php");
 ?>

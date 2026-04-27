@@ -1,6 +1,6 @@
 <?php
 $_POST['$title'] = "Gypsy Swing Revue | I Love Paris!";
-include("../views/header.php");
+include("../views/head.php");
 ?>
 <?php
 include("../views/background.php");

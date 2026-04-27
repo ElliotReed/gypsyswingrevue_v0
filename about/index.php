@@ -1,6 +1,6 @@
 <?php
 $_POST['$title'] = "Gypsy Swing Revue | The Band!";
-include("../views/header.php");
+include("../views/head.php");
 include("../views/background.php");
 include("../views/navigation.php");
 ?>

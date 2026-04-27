@@ -1,15 +1,15 @@
 <?php
 $_POST['$title'] = "Gypsy Swing Revue | Contact!";
-include("../views/header.php");
+include "../views/head.php";
 ?>
 
 
 <?php
-include("../views/background.php");
+include "../views/background.php";
 ?>
 
 <?php
-include("../views/navigation.php");
+include "../views/navigation.php";
 ?>
 
 <!--FEATURES -->
@@ -77,11 +77,11 @@ include("../views/navigation.php");
                 success: function(data) {
                   $('#submitted').html("<div id='thanks'></div>");
                   $('#thanks').html("<h4>Thank you for contacting Gypsy Swing Revue!</h4>")
-                    .append("<p>Your message has been sent to Elliot Reed.<br/>You will be contacted shortly;)</p>")
+                    .append("<p>Your message has been sent to Elliot.<br/>You will be contacted shortly;)</p>")
                     .hide()
                     .fadeIn(1500);
                 },
-              }); //ajax call , for append Dear "+ name +", 
+              }); //ajax call , for append Dear "+ name +",
               return false;
             });
           });
@@ -94,7 +94,7 @@ include("../views/navigation.php");
 
 
 <?php
-include("../views/footer.php");
+include "../views/footer.php";
 ?>
 
 

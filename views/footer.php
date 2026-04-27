@@ -27,10 +27,10 @@ if ($title == "Gypsy Swing Revue | Colorado's Premier Gypsy Jazz Swing Band! | W
   $add = $add . "<script type='text/javascript' src='//code.jquery.com/jquery-1.11.0.min.js'></script>";
   $add = $add . "<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.min.js'></script>";
   $add = $add . "<script type='text/javascript' src='slick/slick.min.js'></script>";
+  $add = $add . "<!-- END Slick Slider-->";
+  echo $add;
 }
-$add = $add . "<!-- END Slick Slider-->";
 ?>
-<?php echo $add; ?>
 <!-- END FOOTER-->
 
 </body>
